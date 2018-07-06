@@ -1,0 +1,8 @@
+hash: 3b1354d195f0905538068e870e38ee9d737223f36c9c4966f9b95045336a29d0
+updated: 2018-07-06T13:57:30.294349998+08:00
+imports:
+- name: github.com/googollee/go-socket.io
+  version: f12da5711bc66c18a0724987fff7f4f3db35c70f
+- name: github.com/samuel/go-zookeeper
+  version: c4fab1ac1bec58281ad0667dc3f0907a9476ac47
+testImports: []

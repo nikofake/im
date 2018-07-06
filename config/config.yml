@@ -1,0 +1,9 @@
+monitor:
+  port: 8899
+
+connection:
+  port: 8898
+
+zk:
+  hosts: [10.253.106.16:2181]
+  basepath: /dhf

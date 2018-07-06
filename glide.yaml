@@ -1,0 +1,4 @@
+package: github.com/nikofake/im-gateway
+import:
+- package: github.com/googollee/go-socket.io
+- package: github.com/samuel/go-zookeeper
