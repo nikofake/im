@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package message;
+
+enum MessageType {
+    personal = 0;
+    muc = 1;
+    ack = 2;
+    notification = 3;
+}
+
+message Header {
+    MessageType type = 1;
+    string from = 2;
+    string to = 3;
+}
+
+message Body {
+    string content = 1;
+    string extContent = 2;
+}
+message Message {
+    Header header = 1;
+    Body body = 2;
+}
