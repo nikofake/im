@@ -8,9 +8,9 @@ import (
 	"github.com/gogap/logrus"
 	"unicode/utf8"
 	"strings"
-	"github.com/kataras/iris/core/errors"
 	"github.com/nikofake/im-gateway/ip"
 	"encoding/json"
+	"errors"
 )
 
 type HostInfo struct {
